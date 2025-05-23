@@ -4,14 +4,14 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nous sommes ravis de vous inviter à notre mariage</title>
-  <link href="./Salma &amp; Hesham-Wedding_files/bootstrap.min.css" rel="stylesheet">
-  <link href="./Salma &amp; Hesham-Wedding_files/css2" rel="stylesheet">
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css2" rel="stylesheet"> 
   <style>
     html, body {
       height: 100%;
       margin: 0;
       font-family: 'Open Sans', sans-serif;
-      background: url('wedding.png') center/cover no-repeat fixed;
+      background:url('assets/wedding.png') center/cover no-repeat fixed;
       color: #333;
     }
 
@@ -85,11 +85,7 @@
 
 
 
-<a href="invitation.pdf" target="_blank">📄 Voir l'invitation (PDF)</a><br><br>
 
-<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mariage+Hesham+et+Salma&dates=20250809T130000Z/20250809T190000Z&details=Notre+mariage+à+Caumont-sur-Durance+%F0%9F%92%8D&location=Caumont-sur-Durance,+France" target="_blank">
-  📅 Ajouter à mon Google Calendar
-</a>
 
 
 <body>
@@ -97,7 +93,7 @@
   <!-- Hero + Timer Section -->
   <div class="page-section">
     <h1 class="hero-title">Salma &amp; Hesham</h1>
-    <p class="lead">We’re getting married! Join us in the celebration of love</p>
+    <p class="lead">Nous sommes ravis de vous inviter à notre mariage</p>
     <div class="flat-timer" id="countdown">
       <div class="flat-box">
         <h1 id="days">78</h1>
@@ -117,25 +113,43 @@
       </div>
     </div>
   </div>
+  
+  <!-- Invitation + Calendrier -->
+<div class="cta text-center" style="margin:40px 0">
+  <p>Nous sommes ravis de vous inviter à notre mariage !</p>
+
+  <a class="btn btn-outline-primary" href="invitation.pdf" target="_blank">
+    📄 Voir l'invitation (PDF)
+  </a>
+
+  <a class="btn btn-outline-success" style="margin-left:15px"
+     href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mariage+Hesham+et+Salma&dates=20250809T130000Z/20250809T190000Z&details=Notre+mariage+à+Caumont-sur-Durance+💍&location=Caumont-sur-Durance,+France"
+     target="_blank">
+     📅 Ajouter à mon Google Calendar
+  </a>
+</div>
+
 
   <!-- Schedule Section -->
   <div class="section">
     <h2>Schedule</h2>
-    <p><strong>15:00</strong> — Civil Ceremony at City Hall of Caumont-sur-Durance</p>
-    <p><strong>18:00</strong> — Reception at 148 Av. Maréchal Leclerc</p>
+    <p><strong>15:00</strong> — Cérémonie civile à Mairie de Caumont-sur-Durance 84510</p>
+    <p><strong>18:00</strong> — Accueil et vin d’honneur a 148 Av. Maréchal Leclerc</p>
     <p><strong>19:00</strong> — Dinner</p>
-    <p><strong>20:00–23:00</strong> — Dancing &amp; Celebration</p>
+    <p><strong>20:00–23:00</strong> — Soirée &amp; dansante </p>
   </div>
 
   <!-- RSVP Section -->
-  <div class="section">
-    <h2>RSVP</h2>
-    <p>Please confirm your attendance by the end of July 2025.</p>
-    <a href="https://zaidonaljbaae.github.io/hesham-salma-wedding/#" class="btn btn-danger">Confirm Now</a>
-  </div>
+<div id="rsvp" class="section">
+  <h2>RSVP</h2>
+  <p>Merci de confirmer votre présence avant le 31 juillet.</p>
 
-  <div class="footer">
-    “The greatest happiness after loving is to confess your love.” — André Gide
+  <!-- ex. Google Forms -->
+  <a class="btn btn-danger"
+     href="https://forms.gle/xxxxxxxxxxxxxxxx"
+     target="_blank">
+     Je confirme ma présence
+  </a>
   </div>
 
   <script>
